@@ -6,6 +6,7 @@ class EmailAddressParser
   attr_accessor :parse
 
   def initialize(parse)
-
+    array = []
+    array << parse.split(", ")
   end
 end
